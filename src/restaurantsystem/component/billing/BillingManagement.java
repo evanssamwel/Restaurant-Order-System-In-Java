@@ -90,6 +90,11 @@ public class BillingManagement extends javax.swing.JFrame {
 
         totalPriceArea.setEditable(false);
         totalPriceArea.setBackground(new java.awt.Color(255, 102, 102));
+        totalPriceArea.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                totalPriceAreaActionPerformed(evt);
+            }
+        });
 
         backButton.setText("Back");
         backButton.addActionListener(new java.awt.event.ActionListener() {
@@ -211,6 +216,10 @@ public class BillingManagement extends javax.swing.JFrame {
         } catch (Exception e) {
         }
     }//GEN-LAST:event_printReciptButtonActionPerformed
+
+    private void totalPriceAreaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_totalPriceAreaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_totalPriceAreaActionPerformed
 
     /**
      * @param args the command line arguments
